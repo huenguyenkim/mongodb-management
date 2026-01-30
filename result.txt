@@ -1,0 +1,99 @@
+﻿Connected to the database
+--- All Students ---
+[
+  {
+    _id: new ObjectId('6914bb25104eb5337e4cfcec'),
+    name: 'John',
+    age: 22,
+    major: 'Statistics'
+  },
+  {
+    _id: new ObjectId('6914bb25104eb5337e4cfced'),
+    name: 'Anna',
+    age: 20,
+    major: 'Computer Science'
+  },
+  {
+    _id: new ObjectId('6914bb25ae5c3a0fa825f48c'),
+    name: 'Tom',
+    age: 23,
+    major: 'History'
+  },
+  {
+    _id: new ObjectId('697c60b15c31f45133bf8953'),
+    name: 'John',
+    age: 22,
+    major: 'Math'
+  },
+  {
+    _id: new ObjectId('697c60b15c31f45133bf8954'),
+    name: 'Anna',
+    age: 20,
+    major: 'Computer Science'
+  },
+  {
+    _id: new ObjectId('697c6fc53b29e2232b32047e'),
+    name: 'John',
+    age: 22,
+    major: 'Math'
+  },
+  {
+    _id: new ObjectId('697c6fc53b29e2232b32047f'),
+    name: 'Anna',
+    age: 20,
+    major: 'Computer Science'
+  },
+  {
+    _id: new ObjectId('697c6fc53b29e2232b320480'),
+    name: 'Mike',
+    age: 21,
+    major: 'Physics'
+  }
+]
+Found Anna: {
+  _id: new ObjectId('6914bb25104eb5337e4cfced'),
+  name: 'Anna',
+  age: 20,
+  major: 'Computer Science'
+}
+Students > 20: [
+  {
+    _id: new ObjectId('6914bb25104eb5337e4cfcec'),
+    name: 'John',
+    age: 22,
+    major: 'Statistics'
+  },
+  {
+    _id: new ObjectId('6914bb25ae5c3a0fa825f48c'),
+    name: 'Tom',
+    age: 23,
+    major: 'History'
+  },
+  {
+    _id: new ObjectId('697c60b15c31f45133bf8953'),
+    name: 'John',
+    age: 22,
+    major: 'Math'
+  },
+  {
+    _id: new ObjectId('697c6fc53b29e2232b32047e'),
+    name: 'John',
+    age: 22,
+    major: 'Math'
+  }
+]
+Sorted & Limited: [
+  {
+    _id: new ObjectId('697c60b15c31f45133bf8954'),
+    name: 'Anna',
+    age: 20,
+    major: 'Computer Science'
+  },
+  {
+    _id: new ObjectId('6914bb25104eb5337e4cfced'),
+    name: 'Anna',
+    age: 20,
+    major: 'Computer Science'
+  }
+]
+All tasks completed!
