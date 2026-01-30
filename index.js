@@ -1,5 +1,5 @@
 const dbOps = require('./dboperations');
-
+const port = process.env.PORT || 3000;
 async function main() {
     const db = await dbOps.connectDB();
     if (!db) return;

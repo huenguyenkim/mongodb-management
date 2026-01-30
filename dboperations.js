@@ -1,6 +1,6 @@
 const { MongoClient } = require('mongodb');
 
-const url = 'mongodb://localhost:27017';
+const url = 'mongodb+srv://admin:<db_password>@cluster0.2ut3pnc.mongodb.net/?appName=Cluster0';
 const client = new MongoClient(url);
 const dbName = 'school';
 
