@@ -1,5 +1,5 @@
 
-# Student and Course Management System (Tutorial 10)
+# Student and Course Management System 
 
 Dự án này là một hệ thống quản lý sinh viên và khóa học cơ bản sử dụng **Node.js** và thư viện **MongoDB driver**. Mục tiêu của bài tập là thực hiện các thao tác CRUD (Create, Read, Update, Delete) và các truy vấn nâng cao trên cơ sở dữ liệu NoSQL.
 
@@ -7,12 +7,10 @@ Dự án này là một hệ thống quản lý sinh viên và khóa học cơ b
 
 Dự án được tổ chức thành 2 file chính để tách biệt logic xử lý và luồng điều khiển:
 
-* 
-**`dboperations.js`**: Chứa tất cả các hàm chức năng như kết nối database, chèn dữ liệu, truy vấn, cập nhật và xóa.
+* **`dboperations.js`**: Chứa tất cả các hàm chức năng như kết nối database, chèn dữ liệu, truy vấn, cập nhật và xóa.
 
 
-* 
-**`index.js`**: File thực thi chính, gọi các hàm từ `dboperations.js` theo trình tự logic.
+* **`index.js`**: File thực thi chính, gọi các hàm từ `dboperations.js` theo trình tự logic.
 
 
 
@@ -24,8 +22,6 @@ Dự án được tổ chức thành 2 file chính để tách biệt logic xử
 * 
 **MongoDB Server** đang chạy tại địa chỉ mặc định `mongodb://localhost:27017`.
 
-
-
 ### 2. Cài đặt thư viện
 
 Mở terminal tại thư mục dự án và chạy:
@@ -34,7 +30,6 @@ Mở terminal tại thư mục dự án và chạy:
 npm install mongodb
 
 ```
-
 ### 3. Chạy ứng dụng
 
 ```bash
@@ -46,12 +41,11 @@ node index.js
 
 Hệ thống thực hiện đầy đủ các bước yêu cầu trong Tutorial 10:
 
-* 
-**Kết nối Database**: Kết nối tới server MongoDB và tạo database tên `school`.
+* **Kết nối Database**: Kết nối tới server MongoDB và tạo database tên `school`.
 
 
 * **Quản lý Sinh viên (Collection: `students`)**:
-* Chèn thông tin sinh viên mới (John, Anna, Mike).
+ * Chèn thông tin sinh viên mới (John, Anna, Mike).
 
 
 * Truy vấn sinh viên theo tên (findOne) hoặc theo độ tuổi (> 20 tuổi).
@@ -62,16 +56,9 @@ Hệ thống thực hiện đầy đủ các bước yêu cầu trong Tutorial 1
 
 * Sắp xếp sinh viên theo tuổi tăng dần và giới hạn kết quả trả về.
 
-
-
-
 * **Quản lý Khóa học (Collection: `courses`)**:
 * Chèn các khóa học mẫu (Database Systems, AI...).
-
-
 * Truy vấn toàn bộ danh sách khóa học và xóa toàn bộ dữ liệu khi cần thiết.
-
-
 📊 Results & Evidence
 
 Dưới đây là kết quả thực hiện các thao tác trên MongoDB tương ứng với từng bước trong bài tập:
