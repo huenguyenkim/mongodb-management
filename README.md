@@ -1,6 +1,3 @@
-Dưới đây là nội dung file **README.md** chuẩn cho bài tập **Tutorial 10 - Activity 4**, được thiết kế để làm nổi bật các kỹ năng xử lý MongoDB của bạn.
-
----
 
 # Student and Course Management System (Tutorial 10)
 
